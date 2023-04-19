@@ -23,7 +23,10 @@ export default function Home() {
         editable={true}
         selectable={true}
         selectMirror={true}
-        events={[{ title: "♃♈", start: "2023-04-25" }]}
+        events={[
+          { title: "♃♈", start: "2023-04-25" },
+          { title: "☀♋", start: "2023-04-25" },
+        ]}
       />
     </>
   );
